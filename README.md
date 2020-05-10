@@ -15,3 +15,7 @@ Repository for the challenges of Java Acceleration - https://codenation.dev/
 * [GERENCIADOR DE TIMES DE FUTEBOL](java-1)
 * [CONTROLE DE ESTACIONAMENTO](java-7)
 * [MEDIA, MODA E MEDIANA](java-14)
+
+### Module 3
+
+* [UTILITÁRIO - CALCULADOR DE ATRIBUTOS DE CLASSE](java-8)
