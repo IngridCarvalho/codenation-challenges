@@ -1,0 +1,27 @@
+package com.challenge.repository;
+
+import com.challenge.entity.Submission;
+import com.challenge.entity.SubmissionId;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+@Repository
+public interface SubmissionRepository extends CrudRepository<Submission, SubmissionId> {
+
+    @Query("select max(s.score) from Submission s " +
+            "where s.id.challenge.id = :challengeId")
+    BigDecimal findHigherScoreByChallengeId(@Param("challengeId") Long challengeId);
+
+    @Query("select s from Submission s " +
+            "join s.id.challenge ch " +
+            "join ch.accelerations ac " +
+            "where ch.id = :challengeId " +
+            "and ac.id = :accelerationId")
+    List<Submission> findByChallengeIdAndAccelerationId(@Param("challengeId") Long challengeId,
+                                                        @Param("accelerationId") Long accelerationId);
+}
