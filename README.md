@@ -19,3 +19,12 @@ Repository for the challenges of Java Acceleration - https://codenation.dev/
 ### Module 3
 
 * [UTILITÁRIO - CALCULADOR DE ATRIBUTOS DE CLASSE](java-8)
+
+### Module 4
+
+* [CRIANDO ENTIDADES DE BANCO DE DADOS EM JAVA](java-9)
+
+### Module 5
+
+* [CRIANDO E MANIPULANDO ENTIDADES NO BANCO DE DADOS COM SPRING](java-10)
+* [ORDER SERVICE](java-15)
