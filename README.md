@@ -28,3 +28,16 @@ Repository for the challenges of Java Acceleration - https://codenation.dev/
 
 * [CRIANDO E MANIPULANDO ENTIDADES NO BANCO DE DADOS COM SPRING](java-10)
 * [ORDER SERVICE](java-15)
+
+### Module 6
+
+* [CRIANDO ENDPOINTS COM SPRING](java-11)
+* [GERADOR DE FRASES DO MONTY PYTHON UTILIZANDO SPRING BOOT E JPA](java-5)
+
+### Module 7
+
+* [OAUTH2 COM SPRING](java-12)
+
+### Module 8
+
+* [REFATORANDO FORMAS DE PAGAMENTO](java-16)
